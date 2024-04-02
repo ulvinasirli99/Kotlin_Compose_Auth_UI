@@ -1,4 +1,4 @@
-package dev.tool.composeloginui
+package dev.tool.composeloginui.screens
 
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
@@ -8,7 +8,6 @@ import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material.*
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.ExperimentalMaterial3Api
 import androidx.compose.material3.Icon
@@ -40,6 +39,9 @@ import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
+import dev.tool.composeloginui.R
+import dev.tool.composeloginui.utils.Visibility
+import dev.tool.composeloginui.utils.VisibilityOff
 
 @Composable
 fun RegisterPage(navController: NavController) {

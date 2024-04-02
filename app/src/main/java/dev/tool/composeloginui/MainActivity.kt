@@ -8,7 +8,10 @@ import androidx.compose.runtime.Composable
 import androidx.navigation.compose.NavHost
 import androidx.navigation.compose.composable
 import androidx.navigation.compose.rememberNavController
-import dev.tool.composeloginui.ui.theme.Material3ComposeTheme
+import dev.tool.composeloginui.screens.LoginPage
+import dev.tool.composeloginui.screens.RegisterPage
+import dev.tool.composeloginui.screens.ResetPage
+import dev.tool.composeloginui.theme.Material3ComposeTheme
 
 
 class MainActivity : ComponentActivity() {

@@ -1,11 +1,10 @@
 @file:OptIn(ExperimentalMaterial3Api::class)
 
-package dev.tool.composeloginui
+package dev.tool.composeloginui.utils
 
 import androidx.compose.foundation.layout.*
 import androidx.compose.foundation.text.KeyboardActions
 import androidx.compose.foundation.text.KeyboardOptions
-import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Info

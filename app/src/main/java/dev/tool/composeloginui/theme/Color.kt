@@ -1,4 +1,4 @@
-package dev.tool.composeloginui.ui.theme
+package dev.tool.composeloginui.theme
 
 import androidx.compose.ui.graphics.Color
 
